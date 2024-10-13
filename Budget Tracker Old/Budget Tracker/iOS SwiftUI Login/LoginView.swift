@@ -1,15 +1,15 @@
-////
-////  ContentView.swift
-////  iOS SwiftUI Login
-////
-////  Created by Auth0 on 7/18/22.
-////  Companion project for the Auth0 video
-////  “Integrating Auth0 within a SwiftUI app”
-////
-////  Licensed under the Apache 2.0 license
-////  (https://www.apache.org/licenses/LICENSE-2.0)
-////
 //
+//  ContentView.swift
+//  iOS SwiftUI Login
+//
+//  Created by Auth0 on 7/18/22.
+//  Companion project for the Auth0 video
+//  “Integrating Auth0 within a SwiftUI app”
+//
+//  Licensed under the Apache 2.0 license
+//  (https://www.apache.org/licenses/LICENSE-2.0)
+//
+
 
 import SwiftUI
 import Auth0
@@ -17,7 +17,7 @@ import Auth0
 
 struct LoginView: View {
   
-  @State public var isAuthenticated = false
+  @State private var isAuthenticated = false
   @State var userProfile = Profile.empty
   
   var body: some View {

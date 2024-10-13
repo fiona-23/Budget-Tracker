@@ -48,33 +48,9 @@
 		B242E9D32CBBA27A00496632 /* Budget TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Budget TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		B24095192CBC352D00B796F3 /* Exceptions for "Budget Tracker" folder in "Budget Tracker" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				readPdf.py,
-			);
-			target = B242E9B52CBBA27800496632 /* Budget Tracker */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		B240951A2CBC352D00B796F3 /* Exceptions for "Budget Tracker" folder in "Compile Sources" phase from "Budget Tracker" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = B242E9B22CBBA27800496632 /* Sources */;
-			membershipExceptions = (
-				readPdf.py,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B242E9B82CBBA27800496632 /* Budget Tracker */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				B24095192CBC352D00B796F3 /* Exceptions for "Budget Tracker" folder in "Budget Tracker" target */,
-				B240951A2CBC352D00B796F3 /* Exceptions for "Budget Tracker" folder in "Compile Sources" phase from "Budget Tracker" target */,
-			);
 			path = "Budget Tracker";
 			sourceTree = "<group>";
 		};

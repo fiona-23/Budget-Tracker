@@ -51,7 +51,7 @@ final class TransactionListViewModel: ObservableObject {
                 merchant: String(transactionDict["merchant"]) ?? "",
                 amount: Double(transactionDict["amount"]) ?? 0.0,
                 //type: String(transactionDict["type"]) ?? "",
-                categoryId: String(transactionDict["categoryId"]) ?? "",
+                categoryId: Int(transactionDict["categoryId"]) ?? 0,
 //                category: String(transactionDict["category"]) ?? "",
 //                isPending: Bool(transactionDict["isPending"]) ?? false,
                 isExpense: Bool(transactionDict["isTransfer"]) ?? false

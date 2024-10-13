@@ -7,6 +7,6 @@
 
 import Foundation
 
-var transactionPreviewData = Transaction(id: 1, date: "10/12/2024", merchant: "University of Washington", amount: 4000.0, categoryId: "Tuition", isExpense: true)
+var transactionPreviewData = Transaction(id: 1, date: "10/12/2024", merchant: "University of Washington", amount: 4000.0, categoryId: 801, isExpense: true)
 
 var transactionListPreviewData = [Transaction](repeating: transactionPreviewData, count: 10)
